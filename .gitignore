@@ -73,3 +73,16 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Third-party assets
+/Assets/00_ThirdParty/
+
+# Android signing files
+*.keystore
+*.jks
+
+# OAuth client configuration
+/Assets/06_Data/Localization/Settings/client_secret_*.json*
+
+# Unity Burst debug files
+*_BurstDebugInformation_DoNotShip/
