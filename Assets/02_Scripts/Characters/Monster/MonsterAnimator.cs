@@ -48,7 +48,7 @@ public class MonsterAnimator : MonoBehaviour
 
         Vector3 scale = scaleFlip.localScale;
 
-        if (moveX > 0)
+        if (moveX < 0)
             scale.x = Mathf.Abs(scale.x);
         else
             scale.x = -Mathf.Abs(scale.x);
